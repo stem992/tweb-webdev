@@ -1,0 +1,65 @@
+/* 	
+	Autore: Stefano Peddoni
+	
+	All'interno di questo file ho il foglio di stile che mi permette una visualizzazione
+	della pagine web responsive
+
+*/
+
+/* Tablet in modalità orizzontale */
+@media all and (min-width: 737px) and (max-width: 1279px) { 
+
+	#body, #title, #top, info, #categoria, nav, #dovesiamo, #text {
+		float: none;
+		display: block;
+		width: 100%;
+		padding: 15px;
+		border-right: none;
+		border-left: none;	
+		
+	}
+	
+	nav ul li a  {
+		color: black;
+	}
+
+ }
+
+/* Tablet in modalità verticale */
+@media all and (min-width: 481px) and (max-width: 736px) { 
+
+	#body, #title, #top, info, #categoria, nav, #dovesiamo, #text {
+		float: none;
+		display: block;
+		width: 100%;
+		padding: 15px;
+		border-right: none;
+		border-left: none;
+	}
+	
+		nav ul li a  {
+		color: black;
+	}
+
+ }
+
+/* Smartphone o piccoli Tablet */
+@media all and (max-width: 480px) { 
+
+	#body, #title, #top, info, #categoria, nav, #dovesiamo, #text {
+		float: none;
+		display: block;
+		width: 100%;
+		padding: 15px;
+		border-right: none;
+		border-left: none;
+		
+	}
+	
+		nav ul li a  {
+		color: black;
+	}
+
+
+ } 
+ 

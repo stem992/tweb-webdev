@@ -1,0 +1,509 @@
+/* 		
+	Autore: Stefano Peddoni
+	
+	All'interno di questo file ho il foglio di stile che ho realizzato per:
+	- Home
+	- Info
+	- Pagine prodotti
+	- Carrello 
+	- Pagamento
+
+*/
+
+body {
+	font-family: 'Open Sans',sans-serif;
+	background-image: url("../img/tec4.jpg");
+	margin: 0;
+	margin: auto;
+}
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	
+}
+
+nav {
+	background: rgba(0,0,0,0.7);
+	height: 80px;
+	width: 100%;
+}
+
+nav ul {
+	float: right;
+	margin-right: 190px;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+
+}
+
+nav ul li a{
+	color: white;
+	text-transform: uppercase;
+	padding: 7px 13px;
+	
+}
+
+label.logo {
+	color: white;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 36px;
+	margin: 5px;
+	padding: 7px 0px 0px 48px;
+}
+
+a.logouthome{
+	background: white;
+	border-radius: 50px;
+	color: black;
+	font-size: 12px;
+}
+
+#prodotti {
+	font-family: 'Open Sans',sans-serif;
+	color: black;
+	text-align: left;
+}
+
+#title {
+	display: inline-block;
+	font-weight: bold;
+	font-size: 36px;
+	margin: 5px;
+	padding: 0px 0px 0px 48px;
+	border: none;
+}
+
+.info {
+	font-family: 'Open Sans',sans-serif;
+	color: black;
+	font-size: 13px;
+    overflow: hidden;
+	text-align: left;
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+#icona > img {
+    height: 35px;
+    width: 35px;
+}
+
+#icona {
+	font-size: 13px;
+	float: right;
+	margin-left: 16px;
+	margin-right: 16px;
+	margin-top: 16px;
+}
+
+#addcart > img {
+	margin: 35px;
+    height: 50px;
+    width: 50px;
+}
+
+#addcart {
+	font-size: 13px;
+	margin-left: 16px;
+	margin-right: 16px;
+	margin-top: 16px;
+}
+
+/* ricerca */
+#search {
+	border-radius: 70px;
+    margin-top: 20px;
+	height: 30px;
+}
+
+#searchbutton {
+	border-radius: 70px;
+    margin-top: 20px;
+	height: 30px;
+}
+
+#corpo {
+	font-size: 16px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+	margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#text {
+    font-family: 'Open Sans',sans-serif;
+    margin: auto;
+    width: 50%;
+    font-size: 17px;
+		margin-top: 25px;
+}
+
+#categoria {
+    width: 1000px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 60px;
+}
+
+.prod > img {
+	height: 100px;
+    width: 100px;
+}
+
+.prod {
+    float: left;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.prod img {
+    height: 100px;
+    width: 100px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+ }
+ 
+.prod img:hover {
+    width: 150px;
+    height: 150px;
+ }
+
+.hello > img {
+	height: 100px;
+    width: 100px;
+}
+
+.buttons {
+	border-radius: 70px;
+	background-color: white;
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    color: black;
+    margin-top: 15px;
+}
+
+.buttons-prod {
+	border-radius: 70px;
+	background-color: white;
+    width: 200px;
+    height: 35px;
+	font-size: 13px;
+    text-align: center;
+	margin-left: 40px;
+}
+
+#logout-prod {
+	text-transform: uppercase;
+	font-size: 11px;
+	float: right;
+	margin-left: 16px;
+	margin-right: 16px;
+	margin-top: 16px	
+}
+
+.apple > img {
+	height: 320px;
+    width: 270px;
+}
+
+.apple {
+    float: left;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+#dovesiamo {
+    margin: auto;
+    font-size: 20px;
+	font-weight: bold;
+	margin-top: 270px;
+	
+}
+
+#marcaprod {
+    margin: auto;
+    width: 50%;
+    font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#pay {
+    margin: auto;
+    width: 50%;
+    font-size: 22px;
+	font-weight: bold;
+	color: grey;
+}
+
+#cardpay {
+	font-size: 17px;
+	
+}
+
+#logoapple > img, #logohuawei > img, #logoxiaomi > img, #carrellologo > img {
+	height: 70px;
+    width: 70px;
+    margin: 10px;
+	margin-left: 66px;
+}
+
+#logosamsung > img {
+	height: 60px;
+    width: 270px;
+    margin: 10px;
+	margin-left: 66px;
+}
+
+#carrello1 > img {
+    height: 35px;
+    width: 35px;
+	margin-left: 66px;
+	
+}
+
+.product-list {
+    font-family: 'Open Sans',sans-serif;
+    padding: 20px 10px 20px;
+}
+
+.white-box {
+    border-radius: 8px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
+    padding: 35px 20px;
+    position: relative;
+	background: transparent;
+	column-count: 3;
+    column-gap: 30px;
+    column-rule: 2px solid #666
+}
+
+.white-box2 {
+    border-radius: 8px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
+    padding: 35px 20px;
+    position: relative;
+	background: rgba(0,0,0,0.7);
+	color: white;
+}
+
+.white-box3 {
+    border-radius: 3px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
+    padding: 5px 15px;
+    position: relative;
+	background: rgba(0,0,0,0.5);
+	color: white;
+}
+ 
+.product-img {
+    min-height: 135px;
+}
+
+.product-img img {
+    max-width: 100%;
+    max-height: 130px;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-bottom {
+    text-align: center;
+}
+
+.product-name {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    margin: 10px 0 10px;
+    font-weight: 600;
+}
+
+.price {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {    
+	background: grey;
+    border-radius: 15px;
+    color: white;
+    font-weight: 600;
+	line-height: 30px;
+    max-width: 200px;
+    margin: 10px auto 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.search-btn {    
+	background: white;
+	border-color: black;
+    border-radius: 14px;
+    color: black;
+    font-weight: 700;
+    padding: 0 15px;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    max-width: 250px;
+    margin: 10px auto 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.price .line-through {
+    font-size: 14px;
+    color: #999999;
+    font-weight: 400;
+    vertical-align: 1px;
+    display: inline-block;
+    text-decoration: line-through;
+    margin-left: 4px;
+}
+
+/* Carrello */
+.cart-buttons span {
+	width: 50px;
+	text-align: center;
+}
+
+.cart-total {
+	font-size: 20px;
+}
+
+table { 
+	margin-top: 15px; 
+	border: transparent;
+	border-collapse: collapse;	
+	text-align: center;
+	text-transform: uppercase;
+}
+ 
+th {
+	
+	width: 250px;
+	height: 60px;
+	border: transparent;
+	
+}
+
+td {
+	padding: 10px;
+	text-align: center;
+	border: transparent;
+}
+
+#footer {
+	font-family: 'Open Sans',sans-serif;
+	font-size: 14px;
+	color: black;
+}
+
+.but {
+	background: rgba(0,0,0,0.7);
+	color: white;
+	font-size: 15px;
+	width: 100%;
+	padding: 5px;
+	margin-top: 5px;
+}
+.butnome {
+	margin-top: 5px;
+	color: black;
+	font-size: 15px;
+	width: 100%;
+	padding: 5px;
+}
+.svuota {
+	text-align: right;
+	margin-right: 10px;
+	color: black;	
+}
+
+/* contenitore base */
+.image-container {
+    width: 650px;
+    height: 500px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    display: inline-block;
+    margin: 10px;
+    -webkit-box-shadow: 2px 2px 50px rgba(0,0,0,0.6);
+    -moz-box-shadow: 2px 2px 50px rgba(0,0,0,0.6);
+    box-shadow: 5px 2px 50px rgba(0,0,0,0.6);
+		margin-top: 35px;
+}
+ 
+/* immagine al interno del contenitore */
+.image-container img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+	margin-left: -325px;
+
+}
+ 
+/* contenitore con didascalia */
+.image-container .image-caption {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    font-family: 'Open Sans',sans-serif;
+    text-align: center;
+}
+ 
+/* titolo */
+.image-caption h2 {
+    margin-top: 50px;
+    color: #fffefe;
+    font-size: 20px;
+}
+ 
+
+.image-caption p {
+    color: #fff;
+	font-size: 16px;
+	text-align: justify;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-transform: uppercase;
+}
+ 
+
+.image-container .caption-1 {
+    left: -800px;
+    transition: all 0.5s;
+}
+.image-container:hover .caption-1 {
+    left: 0;
+    transition: all 0.5s;
+}
+ 

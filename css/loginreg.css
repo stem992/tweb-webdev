@@ -1,0 +1,122 @@
+/* 	
+	Autore: Stefano Peddoni
+
+	All'interno di questo file ho il foglio di stile per la parte di login 
+	e registrazione dell'utente
+	
+*/
+
+body {
+	font-family: 'Open Sans',sans-serif;
+	margin: 0;
+	margin: auto;
+	font-size: 16px;
+	text-align: center;
+	background-image: url("../img/wal.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#footer {
+	font-family: 'Open Sans',sans-serif;
+	font-size: 14px;
+	color: white;
+}
+
+body#LoginForm{ 
+	background-repeat: no-repeat; 
+	background-position: center; 
+	background-size: cover; 
+	padding: 10px;
+}
+
+h1 {
+	font-family: 'Open Sans',sans-serif;
+	margin: 0;
+	font-size: 36px;
+	color: black;
+	text-align: center;
+}
+
+h2 { 
+	color: #ff652f; 
+	font-size: 18px; 
+	margin: auto;
+}
+
+/* inserisco .panel per non cambiare lo stile al p interno al footer */
+.panel p { 
+	color: white; 
+	font-size: 14px; 
+	margin-bottom: 30px; 
+	line-height: 24px;
+}
+
+.login-form .form-control {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background-color: transparent;
+  color: inherit;
+}
+
+/* form login */
+.main-div {
+	margin: 45px auto 120px;
+	position: relative;
+	width: 100%;
+	max-width: 380px;
+	padding: 80px 40px 40px;
+	background: rgba(0,0,0,0.7);
+	border-radius: 15px;
+	color: #fff;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+}
+
+.main-div img {
+	margin-top: 15px;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+	width: 100px;
+	background: rgba(255,255,255, 0.8);
+	border-radius: 50%;
+}
+
+.login-form .form-group {
+	margin-bottom: 15px;
+	text-align: center;
+	
+}
+
+.back a, .reg a{
+  color: white;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+
+/* struttura della parte di inserimento dati */
+.login-form  .btn.btn-primary {
+  display: block;
+  margin-left: auto;
+  border: none;
+  outline: none;
+  background: #ff652f;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#flash {
+  color: white;
+  font-size: 13px;
+}
